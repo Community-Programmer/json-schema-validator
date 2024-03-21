@@ -33,7 +33,7 @@ export const tourContent = [
           "By adding validation keywords to the schema, you can apply constraints to an instance. For example, you can use the type keyword to constrain an instance to an object, array, string, number, boolean, or null:",
         codeBlock: (
           <CopyBlock
-            text={'\n{ "type": "string" }'}
+            text={'{ "type": "string" }'}
             language={"javascript"}
             theme={hybrid}
           />
